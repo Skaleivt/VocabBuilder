@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+
+/* mobile адаптив (375+) */
+@media (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+/* desktop */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}

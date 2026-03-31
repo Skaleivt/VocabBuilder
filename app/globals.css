@@ -1,8 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: var(--font-roboto), sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  background-color: #f8f9fa;
+}
+button {
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+}
+:root {
+  --black: #121417;
+  --green: #85aa9f;
+  --green-light: #a5c0b8;
+  --white: #fcfcfc;
+  --white-1: #f8f8f8;
 }
